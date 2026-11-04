@@ -10,4 +10,3 @@ print(type(image_path).__name__)
 
 
 
-

@@ -41,5 +41,6 @@
 signed_in = True
 user_id = "Sritharan"
 author_id = "Sri"
-can_edit = signed_in or user_id == author_id
-print(can_edit)
+edit = signed_in or user_id == author_id
+print(not signed_in)
+
