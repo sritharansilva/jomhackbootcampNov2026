@@ -48,4 +48,6 @@
 
 # EXERCISE 1: TITLE VALIDATOR
 
+def valid_title(text, limit=160):
 
+  print  ("valid_title") 
