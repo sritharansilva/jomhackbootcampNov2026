@@ -33,10 +33,10 @@
 # Work example 4: Check the active interpreter
 # example
 
-import sys
-from importlib.metadata import PackageNotFoundError, version
-print(sys.executable)
-try:
-    print(version("fastapi"))
-except PackageNotFoundError:
-    print("FastAPI is not installed in this interpreter")
+# import sys
+# from importlib.metadata import PackageNotFoundError, version
+# print(sys.executable)
+# try:
+#     print(version("fastapi"))
+# except PackageNotFoundError:
+#     print("FastAPI is not installed in this interpreter")
